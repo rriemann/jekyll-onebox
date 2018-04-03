@@ -1,5 +1,7 @@
 # Jekyll::Onebox
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-onebox.svg)](https://badge.fury.io/rb/jekyll-onebox)
+
 Liquid tag for displaying GitHub Gists in Jekyll sites: `{% gist %}`.
 
 ## Installation

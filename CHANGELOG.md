@@ -1,5 +1,7 @@
 ## HEAD
 
+  * DOC: add version badge to README.md
+
 ## 0.1.1 / 2017-04-03
 
   * FIX: bump ruby version to ≥2.3 to meet onebox gem requirement
