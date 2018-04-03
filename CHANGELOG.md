@@ -1,5 +1,8 @@
 ## HEAD
 
+## 0.1.2 / 2017-04-03
+
+  * FIX: absolute module path for Onebox (now Jekyll tag is tested)
   * DOC: add version badge to README.md
 
 ## 0.1.1 / 2017-04-03

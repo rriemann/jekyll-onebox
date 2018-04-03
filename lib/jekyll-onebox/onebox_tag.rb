@@ -21,7 +21,7 @@ module Jekyll
     class OneboxTag < Liquid::Tag
       def initialize(tag_name, url, tokens)
         super
-        # STDERR.puts url
+        STDERR.puts url
         @url = url.strip
       end
 
@@ -31,11 +31,11 @@ module Jekyll
           whitelist = @settings["whitelist"]
           if whitelist.kind_of?(Array)
             whitelist.each do |domain|
-              Onebox::Engine::WhitelistedGenericOnebox.whitelist << domain
+              ::Onebox::Engine::WhitelistedGenericOnebox.whitelist << domain
             end
           end
         end
-        Onebox.preview(@url).to_s
+        ::Onebox.preview(@url).to_s
       end
     end
   end

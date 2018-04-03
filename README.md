@@ -32,12 +32,12 @@ plugins:
 Use the tag as follows in your Jekyll pages, posts and collections:
 
 ```liquid
-{% onebox http://github.com/rriemann/jekyll-onebox %}
+{% onebox https://github.com/rriemann/jekyll-onebox/blob/master/README.md %}
 ```
 
 This will create a html preview, i.e. an embed, for websites supported by the ruby gem [onebox](https://github.com/discourse/onebox).
 
-The html preview depends on the actual link and may be the [oEmbed](http://oembed.com/) or [Open Graph](https://developers.facebook.com/docs/opengraph/) of a (whitelisted) website with support for those previews. Onebox also comes with many engines to construct a custom preview for supported websites, such as IMDB, Amazon, Wikipedia, etc.
+The html preview depends on the actual link and may be the [oEmbed](http://oembed.com/) or [Open Graph](https://developers.facebook.com/docs/opengraph/) of a (whitelisted) website with support for those previews. Onebox also comes with many engines to construct a custom preview for supported websites, such as IMDB, Amazon, Wikipedia, Spotify, Soundcloud etc.
 
 **Pro-tip**: Onebox uses in most cases HTTP GET requests to fetch content from the provided link. With evolving website content or updates of the Onebox gem, the html preview of the same link may also evolve.
 
